@@ -37,17 +37,6 @@ Animasi dan interaksi ini meningkatkan pengalaman pengguna (UX) dan membuat apli
 - Pemisahan GridView, Custom Widget, dan StatefulWidget membuat kode modular, mudah diuji, dan mudah dikembangkan  
 - Animasi sederhana ditambahkan untuk membuat interaksi pengguna lebih menyenangkan  
 
-**Keterbatasan Saat Ini:**  
-- Data produk hanya disimpan secara lokal, belum terintegrasi dengan backend atau database  
-- Fitur keranjang dan pembayaran masih dummy  
-- Status favorite tidak tersimpan secara permanen; hilang saat aplikasi dimulai ulang  
-
-**Pengembangan Lanjutan:**  
-- Menambahkan fitur pencarian, filter, dan keranjang belanja terintegrasi  
-- Sinkronisasi data ke backend melalui REST API atau Firebase  
-- Menyimpan status favorite secara permanen menggunakan SharedPreferences atau database lokal  
-
-Dengan implementasi saat ini, aplikasi **sudah memenuhi semua ketentuan UTS**, menampilkan katalog laptop yang interaktif, mudah digunakan, dan siap untuk dikembangkan lebih lanjut.
 
 ---
 
