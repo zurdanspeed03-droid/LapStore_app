@@ -13,18 +13,46 @@
 ---
 
 ### 📖 Deskripsi Aplikasi
-Aplikasi **LapStore** adalah aplikasi katalog sederhana yang menampilkan produk laptop. Fitur utama aplikasi:  
+Aplikasi **LapStore** adalah sebuah aplikasi mobile berbasis Flutter yang berfungsi sebagai **katalog produk laptop**. Aplikasi ini dirancang untuk mempermudah pengguna melihat berbagai jenis laptop dengan tampilan modern, interaktif, dan responsif. LapStore dibuat sebagai implementasi UTS Mata Kuliah Mobile Programming 2 dengan fokus pada penggunaan **GridView**, **Custom Widget**, **Animasi**, dan **StatefulWidget**.  
 
-- Menampilkan daftar produk laptop menggunakan **GridView**  
-- **Custom Widget** (`ProductCard`) untuk tiap item  
-- Animasi transisi dengan **Hero** & **AnimatedScale**  
-- **StatefulWidget** untuk fitur **Favorite** dan kategori aktif  
-- **Splash Screen** saat pertama kali aplikasi dijalankan  
+Fitur utama aplikasi:  
+
+- Menampilkan daftar produk laptop menggunakan **GridView** yang responsif sesuai ukuran layar perangkat  
+- Setiap produk dikemas dalam **Custom Widget** (`ProductCard`) yang menampilkan gambar, nama, harga, dan ikon favorite  
+- Animasi interaktif:  
+  - **Hero Animation** untuk transisi gambar produk dari halaman utama ke halaman detail  
+  - **AnimatedScale** untuk memberi feedback saat menekan kartu produk atau ikon favorite  
+  - **AnimatedContainer** pada kategori untuk menunjukkan kategori aktif secara visual  
+- **StatefulWidget** digunakan untuk menyimpan dan memperbarui status UI, misalnya status favorite dan kategori aktif  
+- **Splash Screen** dengan animasi fade dan scale saat pertama kali aplikasi dijalankan  
+
+**Halaman Detail Produk** menampilkan informasi lengkap setiap laptop, termasuk:  
+- Gambar produk besar dengan efek Hero  
+- Nama, harga, spesifikasi singkat, dan deskripsi lengkap  
+- Tombol aksi dummy seperti “Beli Sekarang” atau “Tambah ke Keranjang”  
+Animasi dan interaksi ini meningkatkan pengalaman pengguna (UX) dan membuat aplikasi terasa lebih responsif dan menarik.  
+
+**Alasan Desain dan Pemilihan Teknologi:**  
+- Flutter dipilih untuk membuat UI yang konsisten di berbagai ukuran layar serta dukungan animasi yang kaya  
+- Pemisahan GridView, Custom Widget, dan StatefulWidget membuat kode modular, mudah diuji, dan mudah dikembangkan  
+- Animasi sederhana ditambahkan untuk membuat interaksi pengguna lebih menyenangkan  
+
+**Keterbatasan Saat Ini:**  
+- Data produk hanya disimpan secara lokal, belum terintegrasi dengan backend atau database  
+- Fitur keranjang dan pembayaran masih dummy  
+- Status favorite tidak tersimpan secara permanen; hilang saat aplikasi dimulai ulang  
+
+**Pengembangan Lanjutan:**  
+- Menambahkan fitur pencarian, filter, dan keranjang belanja terintegrasi  
+- Sinkronisasi data ke backend melalui REST API atau Firebase  
+- Menyimpan status favorite secara permanen menggunakan SharedPreferences atau database lokal  
+
+Dengan implementasi saat ini, aplikasi **sudah memenuhi semua ketentuan UTS**, menampilkan katalog laptop yang interaktif, mudah digunakan, dan siap untuk dikembangkan lebih lanjut.
 
 ---
 
 ### 📂 Link Google Drive (Laporan + Video Demo)
-[Laporan + Video Demo LapStore](https://drive.google.com/drive/folders/1oWxVn_z3TJhanIcaDX726o7y75oAdgmM?usp=sharing)  
+[➡️Laporan & Video Demo LapStore](https://drive.google.com/drive/folders/1oWxVn_z3TJhanIcaDX726o7y75oAdgmM?usp=sharing)  
 
 ---
 
@@ -45,7 +73,6 @@ Aplikasi **LapStore** adalah aplikasi katalog sederhana yang menampilkan produk 
 | Laptop Bisnis |  
 |---------------|  
 | <img src="assets/screenshots/detail_bisnis.png" width="200"> |  
-
 
 ---
 
