@@ -3,9 +3,9 @@
 
 ### 👩‍🎓 Identitas Mahasiswa
 - **Nama Anggota Kelompok:**  
-1. Aqila Yufaridza (232101079)  
-2. Caca Cahyadi (232101058)  
-3. Rahmat Hardiansyah (232101072)  
+ 1. Aqila Yufaridza (232101079)  
+ 2. Caca Cahyadi (232101058)  
+ 3. Rahmat Hardiansyah (232101072)  
 - **Kelas:** TIF RP 23G  
 - **Mata Kuliah:** Pemrograman Mobile 2  
 - **Dosen Pengampu:** Niken Riyanti, ST.
@@ -45,6 +45,7 @@ Aplikasi **LapStore** adalah aplikasi katalog sederhana yang menampilkan produk 
 | Laptop Bisnis |  
 |---------------|  
 | <img src="assets/screenshots/detail_bisnis.png" width="200"> |  
+
 
 ---
 
